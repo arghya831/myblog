@@ -1,0 +1,96 @@
+body {
+    padding-top: 800px;
+    margin: 0;
+    text-align: center;
+}
+
+#img1 {
+    width: 175px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: aquamarine;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#b4e0ed 0%, #28ed0e 100%);
+    z-index: 9;
+    text-align: center;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+#bio {
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.line {
+    background-color: aliceblue;
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right:30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    color: blueviolet;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.links:hover{
+    background-color: dodgerblue;
+}
